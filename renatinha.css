@@ -1,0 +1,90 @@
+/* RESET GERAL */
+
+@font-face {
+    font-family: CoffeCake;
+    src: url(../Calculadora/CoffeCake.ttf);
+}
+
+
+body {
+    background: url('https://manybackgrounds.com/images/hd/hd-cute-kirby-icons-lj52g43ksk0dl5e5.jpg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: CoffeCake;
+
+
+}
+
+.fundo {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.fundo h1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    text-shadow: 3px 3px #000;
+
+}
+
+.calculadora {
+    background: #0000005d;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.calculadora h2 {
+    color: #ecc5c0;
+}
+
+#resultado {
+    background: #fff;
+    text-align: right;
+    padding: 0 5px;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    margin: 1rem auto .4rem;
+    width: 14rem;
+    height: 2.5rem;
+    overflow: hidden;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 3px;
+    border: 5px;
+    box-shadow: 3px 3px #a4636c;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(105%);
+
+
+}
+
+button:active {
+    transform: scale(95%);
+    box-shadow: 3px 3px #ae6e55;
+}
+
+td[rowspan="2"] button {
+    background-color: rgb(231, 197, 197);
+    height: 108px;
+}
+
+td[colspan="2"] button {
+    width: 108px;
+}

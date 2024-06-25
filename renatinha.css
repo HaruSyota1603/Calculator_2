@@ -1,8 +1,8 @@
 /* RESET GERAL */
 
 @font-face {
-    font-family: CoffeCake;
-    src: url(../Calculadora/CoffeCake.ttf);
+    font-family: "coffecake";
+    src: url('CoffeCake.ttf');
 }
 
 
@@ -14,10 +14,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: CoffeCake;
+    font-family: "coffecake";
 
 
 }
+
 
 .fundo {
     height: 100vh;

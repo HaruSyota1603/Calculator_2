@@ -1,9 +1,5 @@
 /* RESET GERAL */
 
-@font-face {
-    font-family: "coffecake";
-    src: url('CoffeCake.ttf');
-}
 
 
 body {
@@ -14,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "coffecake";
+    font-family: CoffeCake;
 
 
 }
@@ -88,4 +84,10 @@ td[rowspan="2"] button {
 
 td[colspan="2"] button {
     width: 108px;
+}
+
+
+@font-face {
+    font-family: CoffeCake;
+    src: url(CoffeCake.ttf);
 }
